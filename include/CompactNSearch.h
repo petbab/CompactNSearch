@@ -4,6 +4,7 @@
 #include "DataStructures.h"
 #include "PointSet.h"
 
+#include <cmath>
 #include <unordered_map>
 
 namespace CompactNSearch
