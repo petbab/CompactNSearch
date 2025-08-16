@@ -110,8 +110,8 @@ public:
 	}
 
 	Spinlock() = default;
-	Spinlock(Spinlock const& other) {};
-	Spinlock& operator=(Spinlock const& other) { return *this; }
+	Spinlock(Spinlock const&) {};
+	Spinlock& operator=(Spinlock const&) { return *this; }
 
 private:
 
